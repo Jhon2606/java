@@ -18,7 +18,7 @@ public class Lutador {
         System.out.println("Diretamente de " + this.getNacionalidade() + " com " + this.getIdade() + " anos e " + this.altura + " de altura " + "pesando " + this.getPeso() + " Kg");
         System.out.println(this.getVitorias() + " vitorias");
         System.out.println(this.getDerrotas() + " derrotas e");
-        System.out.println(this.getEmpates() + "empates!");
+        System.out.println(this.getEmpates() + " empates!");
     }
 
     public void status() {
@@ -26,6 +26,7 @@ public class Lutador {
         System.out.println("Ganhou " + this.getVitorias() + " vezes");
         System.out.println("Perdeu " + this.getDerrotas() + " vezes");
         System.out.println("Empatou " + this.getEmpates() + " vezes");
+        System.out.println("=============================================");
     }
 
     public void ganharLuta() {
@@ -136,5 +137,4 @@ public class Lutador {
     public void setEmpates(int empates) {
         this.empates = empates;
     }
-
 }
