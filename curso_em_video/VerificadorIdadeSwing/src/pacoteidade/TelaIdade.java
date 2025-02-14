@@ -106,7 +106,7 @@ public class TelaIdade extends javax.swing.JFrame {
     private void btnCalcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcActionPerformed
         // TODO add your handling code here:
         int ano = Integer.parseInt(txtAno.getText());
-        int idade = 2025 -ano;
+        int idade = 2025 - ano;
         lblIdade.setText(Integer.toString(idade));
         String sit = (idade >= 16 && idade < 18) || (idade > 70)?"OPCIONAL":"OBRIGATORIO";
         lblSituacao.setText(sit);
