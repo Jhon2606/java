@@ -117,7 +117,7 @@ public class Conta {
         this.status = status;
     }
 
-    public Conta(double saldo, boolean status) {
+    public Conta() {
         this.saldo = 0;
         this.status = false;
     }

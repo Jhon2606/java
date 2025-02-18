@@ -15,6 +15,6 @@ public class UltraEmojiCombat {
         UEC01.marcarLuta(l[0], l[1]);
         UEC01.Lutar();
         l[0].status();
+        System.out.println("Olá mundo");
     }
-
 }
