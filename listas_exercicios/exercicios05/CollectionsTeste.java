@@ -1,10 +1,8 @@
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
 public class CollectionsTeste {
-
     public static void main(String[] args) {
         ArrayList<Integer> numeros = new ArrayList<>();
         Random random = new Random();
@@ -33,14 +31,17 @@ public class CollectionsTeste {
 
         System.out.println("e) remover todos os números pares no arraylist");
         numeros.removeIf(num -> num % 2 == 0);
-        System.out.println("f) imprimir todos os números restantes no arraylist após a execução do que é solicitado em e");
+        System.out.println(
+                "f) imprimir todos os números restantes no arraylist após a execução do que é solicitado em e");
         System.out.println(numeros);
 
-        System.out.println("g) ordenar (crescente) o arraylist usando um método utilitário (classe Collections) e imprimir o arraylist após a ordenação dos valores.");
+        System.out.println(
+                "g) ordenar (crescente) o arraylist usando um método utilitário (classe Collections) e imprimir o arraylist após a ordenação dos valores.");
         Collections.sort(numeros);
         System.out.println(numeros);
 
-        System.out.println("h) ordenar (decrescente) o arraylist usando um método utilitário (classe Collections) e imprimir o arraylist após a ordenação dos valores.(você precisará fornecer um segundo parâmetro ao método sort).");
+        System.out.println(
+                "h) ordenar (decrescente) o arraylist usando um método utilitário (classe Collections) e imprimir o arraylist após a ordenação dos valores.(você precisará fornecer um segundo parâmetro ao método sort).");
         Collections.sort(numeros, Collections.reverseOrder());
         System.out.println(numeros);
     }
