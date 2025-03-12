@@ -1,4 +1,3 @@
-package exercicios05;
 
 public class Par <T1, T2> {
     private T1 primeiro;

@@ -19,5 +19,4 @@ public abstract class Funcionario{
         System.out.println("Funcionario: " + this.nome + "\nSalario: " + this.salarioBase);
     }
 
-
 }

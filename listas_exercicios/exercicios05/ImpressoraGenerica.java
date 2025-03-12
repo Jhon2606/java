@@ -1,4 +1,3 @@
-package exercicios05;
 
 public class ImpressoraGenerica<T> {
     public <T> void printValor(T value){

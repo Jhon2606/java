@@ -10,7 +10,7 @@ public class ContaPoupanca extends ContaBancaria {
     }
 
     public void aplicarJuros() {
-        double juros = (this.taxaDeJuros / 100.0) * getSaldo();
+        double juros = (taxaDeJuros / 100.0) * getSaldo();
         setSaldo(getSaldo() + juros);
     }
 

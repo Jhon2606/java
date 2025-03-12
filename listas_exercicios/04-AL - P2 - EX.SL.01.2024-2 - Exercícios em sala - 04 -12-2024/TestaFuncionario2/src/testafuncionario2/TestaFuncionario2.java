@@ -3,7 +3,7 @@ package testafuncionario2;
 public class TestaFuncionario2 {
 
     public static void main(String[] args) {
-        Funcionario[] f = {new Gerente("Fabricio", 5000.00), new Vendedor("Rafael", 3000.00, 10),
+        Funcionario[] f = {new Gerente("Fabricio", 5000.00), new Vendedor("Raphael", 3000.00, 10),
             new Estagiario("Calango", 1500.00)};
         
         for (Funcionario funcionario : f) {

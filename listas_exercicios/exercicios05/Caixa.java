@@ -1,4 +1,3 @@
-package exercicios05;
 public class Caixa<T> {
     private T item;
     public void setItem(T item){

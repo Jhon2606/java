@@ -1,4 +1,3 @@
-package exercicios05;
 
 public class Utility {
     public static <T> boolean compare(T obj1, T obj2){
