@@ -14,6 +14,7 @@ public class Estudante implements Comparable<Estudante>{
     public int compareTo(Estudante outro){
         return Double.compare(outro.nota, this.nota);
     }
+    
     @Override
     public String toString() {
         return nome + " - Idade: " + idade + ", Nota: " + nota;
